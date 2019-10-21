@@ -1,2 +1,5 @@
+yarn gulp build --platform=android
+yarn cordova platform rm android && yarn gulp build --platform=android
+yarn run clean && yarn && yarn gulp build --platform=android
 ./tools/build/build.sh yarn
 ./tools/build/build.sh yarn gulp build --platform=android
